@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Arccreative/static/css/main.7879d30b.css",
+    "main.js": "/Arccreative/static/js/main.92819fe7.js",
+    "static/js/453.4bc16631.chunk.js": "/Arccreative/static/js/453.4bc16631.chunk.js",
+    "static/media/logo.svg": "/Arccreative/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Arccreative/index.html",
+    "main.7879d30b.css.map": "/Arccreative/static/css/main.7879d30b.css.map",
+    "main.92819fe7.js.map": "/Arccreative/static/js/main.92819fe7.js.map",
+    "453.4bc16631.chunk.js.map": "/Arccreative/static/js/453.4bc16631.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7879d30b.css",
+    "static/js/main.92819fe7.js"
+  ]
+}
