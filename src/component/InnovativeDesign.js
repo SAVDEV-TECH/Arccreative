@@ -17,10 +17,10 @@ function InnovativeDesign() {
          <li><FaAngleRight></FaAngleRight></li> 
       </ul>
 
-      <div className='  w-[80%]  mx-auto mb-10 mt-7'>
+      <div className='  w-[90%]  mx-auto mb-10 mt-7'>
       <div className='grid md:grid-cols-3  mb-3 gap-10 w-[100%] p-3  mx-auto  '>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/Brand ID Mistakes 1.png'}`}></img>
+         <img className=' rounded-[20px] object-cover object-center w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
          <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[40px] h-[40px]  text-center'>Ao</p>
             <p className='text-[.8125rem] font-semibold'>Atochi Ogbonna Co.</p>
@@ -31,7 +31,7 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/Brand ID Mistakes 1.png'}`}></img>
+         <img className=' rounded-[20px] w-full  h-[15.65rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`}></img>
          <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[40px] h-[40px]  text-center'>Ao</p>
             <p className='text-[.8125rem] font-semibold'>Atochi Ogbonna Co.</p>
@@ -42,7 +42,7 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/Brand ID Mistakes 1.png'}`}></img>
+         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
          <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[40px] h-[40px]  text-center'>Ao</p>
             <p className='text-[.8125rem] font-semibold'>Atochi Ogbonna Co.</p>
@@ -53,7 +53,7 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/Brand ID Mistakes 1.png'}`}></img>
+         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
          <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[40px] h-[40px]  text-center'>Ao</p>
             <p className='text-[.8125rem] font-semibold'>Atochi Ogbonna Co.</p>
@@ -64,7 +64,7 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/Brand ID Mistakes 1.png'}`}></img>
+         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
          <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[40px] h-[40px]  text-center'>Ao</p>
             <p className='text-[.8125rem] font-semibold'>Atochi Ogbonna Co.</p>
@@ -75,7 +75,7 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/Brand ID Mistakes 1.png'}`}></img>
+         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (6).png'}`}></img>
          <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[40px] h-[40px]  text-center'>Ao</p>
             <p className='text-[.8125rem] font-semibold'>Atochi Ogbonna Co.</p>
@@ -86,7 +86,7 @@ function InnovativeDesign() {
          </div>
         </div>
       </div>
-      <span className='block w-max  m-auto rounded-full py-3 mb-10 px-5 cursor-pointer text-[.9565rem] font-semibold bg-purple-500 text-white'>Browse more</span>
+      <span className='block w-max  mx-auto rounded-full py-3 mb-10 mt-11 px-5 cursor-pointer text-[.9565rem] font-semibold bg-purple-500 text-white'>Browse more</span>
     </div>
     </div>
   )
