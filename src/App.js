@@ -11,7 +11,7 @@ import Footer from './component/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App sora">
       <Header></Header>
        <Carosel></Carosel>
        <InnovativeDesign></InnovativeDesign>
