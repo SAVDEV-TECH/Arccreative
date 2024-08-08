@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/Arccreative/static/css/main.4e21ef5e.css",
-    "main.js": "/Arccreative/static/js/main.0464f238.js",
+    "main.css": "/Arccreative/static/css/main.ac960929.css",
+    "main.js": "/Arccreative/static/js/main.fc754ef6.js",
     "static/js/453.4bc16631.chunk.js": "/Arccreative/static/js/453.4bc16631.chunk.js",
+    "static/media/slick.svg": "/Arccreative/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Arccreative/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Arccreative/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Arccreative/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Arccreative/index.html",
-    "main.4e21ef5e.css.map": "/Arccreative/static/css/main.4e21ef5e.css.map",
-    "main.0464f238.js.map": "/Arccreative/static/js/main.0464f238.js.map",
+    "main.ac960929.css.map": "/Arccreative/static/css/main.ac960929.css.map",
+    "main.fc754ef6.js.map": "/Arccreative/static/js/main.fc754ef6.js.map",
     "453.4bc16631.chunk.js.map": "/Arccreative/static/js/453.4bc16631.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e21ef5e.css",
-    "static/js/main.0464f238.js"
+    "static/css/main.ac960929.css",
+    "static/js/main.fc754ef6.js"
   ]
 }
