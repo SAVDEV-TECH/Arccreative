@@ -1,10 +1,6 @@
+
+import React, {  useState,useEffect } from "react";
  
-import Slider from "react-slick";
-import React, { useRef, useState,useEffect } from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import ReactArrow from "./ReactArrow";
-import LeftReactArrow from "./LeftReactArrow";
 
 function HireDesigner() {
   
@@ -65,8 +61,7 @@ function HireDesigner() {
       </div>
       <span className='flex items-center mt-6 gap-1 justify-center mx-auto'>
       <p className='w-[30px] h-[5px] rounded-full bg-black'></p>
-      <LeftReactArrow ></LeftReactArrow>
-      <ReactArrow></ReactArrow>
+    
       <p className='w-[7px] h-[5px] rounded-full bg-black'></p>
       </span>
       {/* <img className=' rounded-[17px] w-[100%] object-center h-[500px] object-cover' src={`${process.env.PUBLIC_URL + '/Hire designers.png'}`}alt='kk'></img>      */} 

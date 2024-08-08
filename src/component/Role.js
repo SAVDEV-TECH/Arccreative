@@ -3,8 +3,7 @@ import { FaArrowDown, FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ReactArrow from './ReactArrow';
-import LeftReactArrow from './LeftReactArrow';
+ 
 
 function Role() {
    var settings = {
