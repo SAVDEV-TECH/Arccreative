@@ -1,11 +1,13 @@
 import React from 'react'
 import { FaAngleRight, FaArrowDown, FaArrowRight } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
+ 
 
 function InnovativeDesign() {
+   
   return (
     <div className=' flex flex-col justify-center items-center'>
-      <h2 className='font-bold text-[2rem]'>Innovative Design Shop</h2>
+      <h2 className='font-bold text-[2rem] cabinet-font'>Innovative Design Shop</h2>
       <ul className='flex items-center  text-[.8125rem] gap-14 mt-5 font-semibold '>
          <li className='bg-purple-400 py-2 px-7 rounded-full text-purple-700'><NavLink>Discover</NavLink></li>
          <li><NavLink>Animation</NavLink></li>
@@ -19,6 +21,7 @@ function InnovativeDesign() {
 
       <div className='  w-[90%]  mx-auto mb-10 mt-7'>
       <div className='grid md:grid-cols-3  mb-3 gap-10 w-[100%] p-3  mx-auto  '>
+          
         <div className=' relative w-full h-[300px]'>
          <img className=' rounded-[20px] object-cover object-center w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
          <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
@@ -85,6 +88,7 @@ function InnovativeDesign() {
             </span>
          </div>
         </div>
+        
       </div>
       <span className='block w-max  mx-auto rounded-full py-3 mb-10 mt-11 px-5 cursor-pointer text-[.9565rem] font-semibold bg-purple-500 text-white'>Browse more</span>
     </div>

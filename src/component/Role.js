@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { FaArrowDown, FaArrowLeft, FaArrowRight } from 'react-icons/fa'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import ReactArrow from './ReactArrow';
+import LeftReactArrow from './LeftReactArrow';
 
 function Role() {
+   var settings = {
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+    };
+    const slider=React.useRef(null)
   return (
-    <div className='w-[90%] overflow-hidden  ml-[90px]'>
-    <div className=' flex relative gap-2 w-[2100px] mx-auto  '>
+   // flex relative gap-2 w-[2100px] mx-auto
+    <div className='w-[90%]   ml-[90px]'>
+        
+   <div className=''>
+   <Slider ref={slider} {...settings}> 
       <div className=' relative w-full h-[360px]'>
          <img className=' rounded-[20px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
          <div className='flex absolute bottom-6 flex-col  items-start  left-3  text-[.8125rem] mt-2  px-2'>
@@ -17,7 +33,7 @@ function Role() {
             </span>
          </div>
         </div>
-        <div className=' relative w-full h-[360px]'>
+        <div className=' relative w-[400px] h-[360px]'>
          <img className=' rounded-[20px] w-full  object-cover object-top  h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (10).png'}`}></img>
          <div className='flex absolute bottom-6 flex-col  items-start left-3   text-[.8125rem] mt-2  px-2'>
             <p className=' font-semibold mb-1   text-[1rem]   text-white'>Atochi Ogbonna Co.</p>
@@ -29,7 +45,7 @@ function Role() {
             </span>
          </div>
         </div>
-        <div className=' relative w-full h-[360px]'>
+        <div className=' relative w-[400px] h-[360px]'>
          <img className=' rounded-[20px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (1).png'}`}></img>
          <div className='flex absolute bottom-6 flex-col    items-start  left-3  text-[.8125rem] mt-2  px-3'>
             <p className=' font-semibold mb-1   text-[1rem]   text-white'>Atochi Ogbonna Co.</p>
@@ -41,7 +57,7 @@ function Role() {
             </span>
          </div>
         </div>
-        <div className=' relative w-full h-[360px]'>
+        <div className=' relative w-[400px] h-[360px]'>
          <img className=' rounded-[20px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
          <div className='flex absolute bottom-6 flex-col  items-start  left-3  text-[.8125rem] mt-2  px-3'>
             <p className=' font-semibold mb-1   text-[1rem]   text-white'>Atochi Ogbonna Co.</p>
@@ -53,7 +69,7 @@ function Role() {
             </span>
          </div>
         </div>
-        <div className=' relative w-full h-[300px]'>
+        <div className=' relative w-[400px] h-[300px]'>
          <img className=' rounded-[20px] w-full  h-[100%] object-cover object-top   ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
          <div className='flex absolute bottom-6 flex-col  items-start left-3   text-[.8125rem] mt-2  px-3'>
             <p className=' font-semibold mb-1   text-[1rem]   text-white'>Atochi Ogbonna Co.</p>
@@ -65,7 +81,7 @@ function Role() {
             </span>
          </div>
         </div>
-        <div className=' relative w-full h-[300px]'>
+        <div className=' relative w-[400px] h-[300px]'>
          <img className=' rounded-[20px] w-full  h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
          <div className='flex absolute bottom-6 flex-col  items-start left-3   text-[.8125rem] mt-2  px-2'>
             <p className=' font-semibold mb-1   text-[1rem]   text-white'>Atochi Ogbonna Co.</p>
@@ -77,16 +93,19 @@ function Role() {
             </span>
          </div>
         </div>
-    </div>
-    <span className='flex gap-4 mt-5 w-max mx-auto'>
-        <FaArrowRight className='w-[100px] rounded-full text-white h-[100px] p-[37px] flex items-center justify-center bg-slate-500'/>
-        <FaArrowLeft className='w-[100px] rounded-full text-white h-[100px] p-[37px] flex items-center justify-center bg-black'/>
-    </span>
+        </Slider>
     </div>
     
-    // <div>
-    //     <h2>res</h2>
-    // </div>
+    <span className='flex gap-4 mt-9 w-max mx-auto cursor-pointer'   >
+    <FaArrowLeft className='w-[50px] rounded-full text-white h-[50px] p-[17px]
+     flex items-center justify-center bg-black' onClick={() => slider?.current?.slickPrev()}  />
+        <FaArrowRight className='w-[50px] rounded-full text-white h-[50px] p-[17px] flex items-center justify-center bg-slate-500'
+         onClick={() => slider?.current?.slickNext()} />
+ 
+    </span>
+     
+    </div>
+     
   )
 }
 
