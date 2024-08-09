@@ -68,7 +68,7 @@ function Role() {
             </span>
          </div>
         </div>
-        <div className=' relative w-[400px] h-[300px]'>
+        <div className=' relative w-[400px] h-[360px]'>
          <img className=' rounded-[20px] w-full  h-[100%] object-cover object-top   ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
          <div className='flex absolute bottom-6 flex-col  items-start left-3   text-[.8125rem] mt-2  px-3'>
             <p className=' font-semibold mb-1   text-[1rem]   text-white'>Atochi Ogbonna Co.</p>
@@ -80,7 +80,7 @@ function Role() {
             </span>
          </div>
         </div>
-        <div className=' relative w-[400px] h-[300px]'>
+        <div className=' relative w-[400px] h-[360px]'>
          <img className=' rounded-[20px] w-full  h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
          <div className='flex absolute bottom-6 flex-col  items-start left-3   text-[.8125rem] mt-2  px-2'>
             <p className=' font-semibold mb-1   text-[1rem]   text-white'>Atochi Ogbonna Co.</p>
