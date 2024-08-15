@@ -1,33 +1,65 @@
 import React from 'react'
-
+import {Splide,  SplideSlide} from  '@splidejs/react-splide'
+import {AutoScroll} from '@splidejs/splide-extension-auto-scroll'
+import '@splidejs/react-splide/css/core';
+import '@splidejs/react-splide/css'
 function Carosel() {
+   
+  
+   
+  
+  // splide.mount(splide);
   return (
-    <div className='w-full h-[400px] mt-11 overflow-hidden'>
-      <div className='w-[1600px] mx-auto  h-[300px] flex items-center gap-5'>
-         <div className='relative flex items-center justify-center w-[340px] h-[300px] '>
-             <img  className='w-full h-full rounded-[20px]' src={`${process.env.PUBLIC_URL + '/Brand ID Mistakes 1.png'}`}  alt='yy'></img>
-         </div>
-         <div className='relative flex items-center overflow-hidden  gap-[10px] flex-col justify-between w-[400px] h-[300px] '>
-         <img src={`${process.env.PUBLIC_URL + '/item.png'}`}></img>
-         <img src={`${process.env.PUBLIC_URL + '/item.png'}`}></img>
+    <div className="relative flex h-full mt-[100px] mb-[100px]">
+    <div className="container max-w-screen-xl mx-auto relative z-20 overflow-x-hidden">
+        <Splide
+            options={{
+                type: "loop", // Loop back to the beginning when reaching the end
+                autoScroll: {
+                    pauseOnHover: true, // Do not pause scrolling when hovering over the carousel
+                    pauseOnFocus: true, // Do not pause scrolling when the carousel is focused
+                    rewind: true, // Rewind to start when the end is reached
+                    speed: 1 // Scrolling speed
+                },
+                arrows: false, // Hide navigation arrows
+                pagination: false, // Hide pagination dots
+                fixedWidth: '445px', // Fixed width for each slide
+                gap: '12px', // Gap between slides
+            }}
+            extensions={{ AutoScroll }} // Use the AutoScroll extension
+        >
+            <SplideSlide>
+         <img className=' rounded-[20px] object-cover object-center w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
+                
+            </SplideSlide>
+            <SplideSlide>
+         <img className=' rounded-[20px] w-full  h-[15.65rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`}></img>
              
-         </div>
-         <div className='relative flex items-center justify-center w-[400px] h-[300px] '>
-         <img className='w-full h-full rounded-[20px]  ' src={`${process.env.PUBLIC_URL + '/Brand ID Mistakes 1.png'}`} alt=''></img>
-             
-         </div>
-         <div className='relative flex items-center overflow-hidden gap-[10px] flex-col justify-between w-[400px] h-[300px] '>
-         <img src={`${process.env.PUBLIC_URL + '/item.png'}`}></img>
-         <img src={`${process.env.PUBLIC_URL + '/item.png'}`}></img>
-             
-         </div>
-         <div className='relative flex items-center justify-center w-[400px] h-[300px] '>
-         <img className='w-full h-full rounded-[20px]' src={`${process.env.PUBLIC_URL + '/Brand ID Mistakes 1.png'}`}></img>
-             
-         </div>
-      </div>
+            </SplideSlide>
+            <SplideSlide>
+         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+                 
+            </SplideSlide>
+            <SplideSlide>
+         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+            
+            </SplideSlide>
+            <SplideSlide>
+         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
+            
+            </SplideSlide>
+            <SplideSlide>
+         <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
+                
+            </SplideSlide>
+        </Splide>
     </div>
+</div>
+      
+     
+    
   )
 }
-
+ 
 export default Carosel
+ 

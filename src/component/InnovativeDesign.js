@@ -8,7 +8,7 @@ function InnovativeDesign() {
   return (
     <div className=' flex flex-col justify-center items-center'>
       <h2 className='font-bold text-[2rem] cabinet-font'>Innovative Design Shop</h2>
-      <ul className='flex items-center  text-[.8125rem] gap-14 mt-5 font-semibold '>
+      <ul className='flex items-center max-w-[400px] mx-auto  overflow-x-hidden text-[.8125rem] gap-14 mt-5 font-semibold '>
          <li className='bg-purple-400 py-2 px-7 rounded-full text-purple-700'><NavLink>Discover</NavLink></li>
          <li><NavLink>Animation</NavLink></li>
          <li ><NavLink>Branding</NavLink></li>
