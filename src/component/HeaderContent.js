@@ -18,7 +18,7 @@
 <path d="M11.0506 22.7697C11.2235 23.9305 9.6009 24.3884 9.14138 23.3085L6.41268 16.8959C6.13202 16.2363 6.61604 15.5044 7.33284 15.5044H10.9869C11.7067 15.5044 12.1907 14.7668 11.9043 14.1064L9.96872 9.64387C9.62776 8.85779 8.5207 8.83654 8.14983 9.60895L4.09079 18.0626C3.92434 18.4093 3.57386 18.6298 3.18932 18.6298H1.58289C0.848109 18.6298 0.364241 17.8639 0.679811 17.2003L8.14679 1.4991C8.51646 0.721781 9.63018 0.743624 9.96909 1.53484L16.6945 17.236C16.9771 17.8959 16.4931 18.6298 15.7752 18.6298H11.5942C10.9833 18.6298 10.5151 19.1728 10.6051 19.777L11.0506 22.7697Z" fill="#fff"/>
 </svg>
       </h3>
-      <h3 className='text-[2rem] cabinet-font  font-semibold text-white px-16'>Create great designs, faster</h3>
+      <h3 className='text-[2rem] cabinet-font  font-semibold text-white px-10'>Create great designs, faster</h3>
       <h3 className='text-center px-20 cabinet-font  text-white font-[400] text-[0.9235rem]  mt-4  md:text-[1.0625rem]'>High-quality photos, videos, vectors, PSD, AI images, icons... to go from ideas to outstanding designs</h3>
     </div>
 

@@ -5,7 +5,8 @@ import { NavLink } from 'react-router-dom'
 function Footer() {
   return (
      <div className='w-[100%] grid text-center  '> 
-    <ul className='flex items-center p-14 overflow-hidden   max-w-[400px] mx-auto text-[.8125rem] gap-10 mt-5 font-semibold '>
+     
+    <ul className='flex items-center p-14  flex-wrap   mx-auto text-[.8125rem] gap-10 mt-5 font-semibold '>
     <li className='bg-purple-400 py-2 px-7 rounded-full text-purple-700'><NavLink>Discover</NavLink></li>
     <li><NavLink>Animation</NavLink></li>
     <li ><NavLink>Branding</NavLink></li>
