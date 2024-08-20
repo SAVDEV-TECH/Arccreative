@@ -38,20 +38,20 @@ import '@splidejs/react-splide/css'
                 arrows: false, // Hide navigation arrows
                 pagination: true, // Hide pagination dots
                 fixedWidth: '280px', // Fixed width for each slide
-                gap: '5px', // Gap between slides
+                gap: '20px', // Gap between slides
             }}
             extensions={{ AutoScroll }} // Use the AutoScroll extension
         >
             <SplideSlide>
             <div className=' relative w-full h-[360px]'>
-         <img className=' rounded-[20px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
+         <img className=' rounded-[23px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
          <div className='flex absolute bottom-2 flex-col  items-start  left-0  text-[.825rem] mt-2  px-2'>
-            <p className=' font-semibold mb-1     text-white'>Atochi Ogbonna Co.</p>
+            <p className=' font-semibold mb-1  text-[.813rem]    text-white'>Atochi Ogbonna Co.</p>
             <p className=' font-semibold flex gap-4 items-center justify-center flex-wrap  text-white  '>Ui Ux Designer</p>
-            <span className='flex items-start  py-[0.6rem]  text-white rounded-full '>
-                <span className='border-[2px] text-[0.625rem] border-white px-3 py-1 font-semibold rounded-full'>Ui Design</span>
-                 <span className='border-[2px] text-[0.625rem] border-white px-3 py-1 font-semibold rounded-full'>Web Design</span>
-                 <span className='border-[2px] text-[0.625rem] border-white px-3 py-1 font-semibold rounded-full'>Leadership</span>
+            <span className='flex items-start gap-4  py-[0.6rem]  text-white rounded-full '>
+                <span className='border-[1px] text-[0.688] border-white px-1 py-1 font-semibold rounded-full'>Ui Design</span>
+                 <span className='border-[1px] text-[0.688rem] border-white px-1 py-1 font-semibold rounded-full'>Web Design</span>
+                 <span className='border-[1px] text-[0.688rem] border-white px-1 py-1 font-semibold rounded-full'>Leadership</span>
             </span>
          </div>
         </div>
@@ -59,7 +59,7 @@ import '@splidejs/react-splide/css'
             </SplideSlide>
             <SplideSlide>
             <div className=' relative w-full h-[360px]'>
-         <img className=' rounded-[20px] w-full  object-cover object-top  h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (10).png'}`}></img>
+         <img className=' rounded-[23px] w-full  object-cover object-top  h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (10).png'}`}></img>
          <div className='flex absolute bottom-2 flex-col  items-start left-0   text-[.8125rem] mt-2  px-2'>
             <p className=' font-semibold mb-1   text-[.825rem]   text-white'>Atochi Ogbonna Co.</p>
             <p className='text-[.625rem] font-semibold flex items-center justify-center  text-white  '>Ui Ux Designer</p>
@@ -74,7 +74,7 @@ import '@splidejs/react-splide/css'
             </SplideSlide>
             <SplideSlide>
             <div className=' relative w-full h-[360px]'>
-         <img className=' rounded-[20px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (1).png'}`}></img>
+         <img className=' rounded-[23px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (1).png'}`}></img>
          <div className='flex absolute bottom-2 flex-col    items-start  left-0  text-[.8125rem] mt-2  px-3'>
             <p className=' font-semibold mb-1   text-[.825rem]   text-white'>Atochi Ogbonna Co.</p>
             <p className='text-[1rem] font-semibold flex items-center justify-center  text-white  '>Ui Ux Designer</p>
@@ -89,7 +89,7 @@ import '@splidejs/react-splide/css'
             </SplideSlide>
             <SplideSlide>
             <div className=' relative w-full h-[360px]'>
-      <img className=' rounded-[20px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
+      <img className=' rounded-[23px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
           <div className='flex absolute bottom-2 flex-col  items-start  left-0 text-[.8125rem] mt-2  px-3'>
              <p className=' font-semibold mb-1   text-[0.825rem]   text-white'>Atochi Ogbonna Co.</p>
              <p className='text-[.625rem] font-semibold flex items-center justify-center  text-white  '>Ui Ux Designer</p>
@@ -103,7 +103,7 @@ import '@splidejs/react-splide/css'
             </SplideSlide>
             <SplideSlide>
             <div className=' relative w-full h-[360px]'>
-      <img className=' rounded-[20px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
+      <img className=' rounded-[23px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
           <div className='flex absolute bottom-2 flex-col  items-start  left-0 text-[.8125rem] mt-2  px-3'>
              <p className=' font-semibold mb-1   text-[0.825rem]   text-white'>Atochi Ogbonna Co.</p>
              <p className='text-[.625rem] font-semibold flex items-center justify-center  text-white  '>Ui Ux Designer</p>
@@ -118,7 +118,7 @@ import '@splidejs/react-splide/css'
             </SplideSlide>
             <SplideSlide>
             <div className=' relative w-full h-[360px]'>
-      <img className=' rounded-[20px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
+      <img className=' rounded-[23px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
           <div className='flex absolute bottom-2 flex-col  items-start  left-0 text-[.8125rem] mt-2  px-3'>
              <p className=' font-semibold mb-1   text-[0.825rem]   text-white'>Atochi Ogbonna Co.</p>
              <p className='text-[.625rem] font-semibold flex items-center justify-center  text-white  '>Ui Ux Designer</p>

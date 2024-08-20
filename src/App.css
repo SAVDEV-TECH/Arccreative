@@ -2,7 +2,9 @@
 
 
 
- .cabinet-font {font-family: 'Cabinet Grotesk', sans-serif;}
+ .cabinet-font {
+  font-family: 'Cabinet Grotesk', sans-serif;
+}
                                                 
 
 .sora{
@@ -10,4 +12,8 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.navbar{
+  transform: translateX(100%);
 }

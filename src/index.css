@@ -16,3 +16,15 @@
 .slick-slide > div{
     margin: 0 0 0 10px;
 }
+
+
+.sora{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .navbar.isopen{
+    transform: translateX(0);
+  }

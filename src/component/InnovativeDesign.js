@@ -27,11 +27,11 @@ function InnovativeDesign() {
       </div>
       <FaAngleRight onClick={move} className='mt-[20px] cursor-pointer  text-[20px]'/>
       </div>
-      <div className='  w-[70%] sm:w-[95%]  md:w-[95%] mx-auto mb-10 mt-7'>
+      <div className='  w-[85%] sm:w-[95%]  md:w-[95%] mx-auto mb-10 mt-7'>
       <div className='grid grid-cols-1 sm:grid-cols-3  md:grid-cols-4   mb-3 gap-10 w-[100%] p-3  mx-auto  '>
           
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] object-cover object-center w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
+         <img className=' rounded-[8px] object-cover object-center w-full h-[16rem]  md:h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
          <div className='flex items-center  mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[0.875rem] ml-1 font-semibold'>Atochi Ogbonna Co.</p>
@@ -42,7 +42,7 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`}></img>
+         <img className=' rounded-[8px] w-full h-[16rem]    md:h-[12.813rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`}></img>
          <div className='flex items-center  mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[0.875rem]  ml-1 font-semibold'>Atochi Ogbonna Co.</p>
@@ -53,7 +53,7 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+         <img className=' rounded-[8px] w-full h-[16rem]  object-cover  md:h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
          <div className='flex items-center  mt-2 px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[.875rem] ml-1 font-semibold'>Atochi Ogbonna Co.</p>
@@ -64,7 +64,7 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
+         <img className=' rounded-[8px] w-full h-[16rem] object-cover  md:h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
          <div className='flex items-center  mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[.87rem] font-semibold'>Atochi Ogbonna Co.</p>
@@ -75,30 +75,30 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
+         <img className=' rounded-[8px] w-full h-[16rem] object-cover   md:h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
          <div className='flex items-center mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[.875rem] font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center   text-black '>
             <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-            <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' />
+            {/* <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' /> */}
             </span>
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (6).png'}`}></img>
+         <img className=' rounded-[8px] w-full h-[16rem] object-cover  md:h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (6).png'}`}></img>
          <div className='flex items-center text-[.875rem] mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[.875rem] font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center   text-black'>
             <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-            <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' />
+            {/* <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' /> */}
             </span>
          </div>
         </div>
 
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] object-cover object-center w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
+         <img className=' rounded-[8px] object-cover  w-full h-[16rem]  md:h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
          <div className='flex items-center  mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[0.875rem] ml-1 font-semibold'>Atochi Ogbonna Co.</p>
@@ -109,57 +109,57 @@ function InnovativeDesign() {
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`}></img>
+         <img className=' rounded-[8px] w-full h-[16rem]  md:h-[12.813rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`}></img>
          <div className='flex items-center  mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[0.875rem]  ml-1 font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center  text-black '>
             <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-             <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' />
+             {/* <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' /> */}
             </span>
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+         <img className=' rounded-[8px] w-full h-[16rem] md:h-[12.813rem] object-cover  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
          <div className='flex items-center  mt-2 px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[.875rem] ml-1 font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center   text-black '>
             <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-            <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' />
+            {/* <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' /> */}
             </span>
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
+         <img className=' rounded-[8px] w-full object-cover   h-[16rem] md:h-[12.813rem]    ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
          <div className='flex items-center  mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[.87rem] font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center text-black'>
             <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-            <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' />
+            {/* <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' /> */}
             </span>
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
+         <img className=' rounded-[8px] w-full  object-cover  h-[16rem] md:h-[12.813rem]    ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
          <div className='flex items-center mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[.875rem] font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center   text-black '>
             <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-            <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' />
+            {/* <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' /> */}
             </span>
          </div>
         </div>
         <div className=' relative w-full h-[300px]'>
-         <img className=' rounded-[8px] w-full  h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (6).png'}`}></img>
+         <img className=' rounded-[8px] w-full object-cover  h-[16rem] md:h-[12.813rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (6).png'}`}></img>
          <div className='flex items-center text-[.875rem] mt-2  px-1'>
             <p className='rounded-full flex items-center justify-center bg-red-200 text-red-400 w-[30px] h-[30px]  text-center'>Ao</p>
             <p className='text-[.875rem] font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center   text-black'>
             <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-            <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' />
+            {/* <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' /> */}
             </span>
          </div>
         </div>

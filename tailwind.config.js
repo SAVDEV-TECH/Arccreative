@@ -13,7 +13,7 @@ module.exports = {
         },
       },
       animation:{
-        'slide-left':'slide-left 15s linear infinite',
+        'slide-left':'slide-left 15s linear ',
       },
       screens:{
         'md':'1160px'
