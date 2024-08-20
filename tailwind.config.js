@@ -8,13 +8,14 @@ module.exports = {
     extend: {
       keyframes:{
         'slide-left':{
-          from:{transform:'translateX(0)'},
-          to:{transform:'translateX(-100%)'}
+          from:{transform:'translsteX(0px)'},
+          to:{transform:'translateX(10px)'}
         },
       },
       animation:{
-        'slide-left':'slide-left 15s linear ',
+        'slide-left':'slide-left 1s linear ',
       },
+       
       screens:{
         'md':'1160px'
       },

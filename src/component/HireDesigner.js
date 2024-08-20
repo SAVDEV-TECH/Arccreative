@@ -18,7 +18,7 @@ function HireDesigner() {
 
   return (
    
-       <div className="w-full        mx-auto h-[500px] mt-16    ">
+       <div className="w-full     overflow-hidden    mx-auto h-[500px] mt-16    ">
          <div className="relative w-[400%]  h-[500px]  gap-2  transition-transform ease-in-out  flex" style={{transform:`translateX(-${slider * 25}%)`}}>
           <div className="w-full h-[500px]  flex flex-col items-center justify-center bg-blue-400 ">
              

@@ -17,3 +17,8 @@
 .navbar{
   transform: translateX(100%);
 }
+.activeClassname{
+  background-color: rgba(128, 0, 128, 0.589);
+  color: purple;
+  
+}

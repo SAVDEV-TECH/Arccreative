@@ -16,12 +16,13 @@ function InnovativeDesign() {
          <div className=' overflow-hidden'   > 
       <ul style={{ transform:`translateX(-${moveit * 100}%)`}} className='flex transition-all ease-linear items-center max-w-[400px] md:max-w-[700px] mx-auto  text-[.8125rem] gap-14 mt-5 font-semibold '  >
          <li className='bg-purple-400 py-2 px-7 rounded-full text-purple-700'><NavLink>Discover</NavLink></li>
-         <li><NavLink>Animation</NavLink></li>
-         <li ><NavLink>Branding</NavLink></li>
-         <li><NavLink >Illustraion</NavLink></li>
-         <li ><NavLink>Mobile</NavLink></li>
-         <li><NavLink>Print</NavLink></li>
-         <li><NavLink>Design</NavLink></li>
+         <li><NavLink className=' '
+        to='/' >Animation</NavLink></li>
+         <li ><NavLink  className=' ' to='/'>Branding</NavLink></li>
+         <li><NavLink  className=' '  to='/'>Illustraion</NavLink></li>
+         <li ><NavLink  className=' ' to='/'>Mobile</NavLink></li>
+         <li><NavLink  className=' ' to='/'>Print</NavLink></li>
+         <li><NavLink  className=' ' to='/'>Design</NavLink></li>
           
       </ul>
       </div>
@@ -37,7 +38,7 @@ function InnovativeDesign() {
             <p className='text-[0.875rem] ml-1 font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center   text-black  '>
                 <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-                <MdOutlineRemoveRedEye className='ml-auto text-gray-500' />
+                {/* <MdOutlineRemoveRedEye className='ml-auto text-gray-500' /> */}
             </span>
          </div>
         </div>
@@ -48,7 +49,7 @@ function InnovativeDesign() {
             <p className='text-[0.875rem]  ml-1 font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center  text-black '>
             <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-             <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' />
+             {/* <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' /> */}
             </span>
          </div>
         </div>
@@ -70,7 +71,7 @@ function InnovativeDesign() {
             <p className='text-[.87rem] font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center text-black'>
             <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-            <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' />
+            {/* <MdOutlineRemoveRedEye className='ml-[0.938rem] text-gray-500' /> */}
             </span>
          </div>
         </div>
@@ -104,7 +105,7 @@ function InnovativeDesign() {
             <p className='text-[0.875rem] ml-1 font-semibold'>Atochi Ogbonna Co.</p>
             <span className='flex items-center   text-black  '>
                 <p className='text-[0.625rem] font-bold bg-gray-500 px-3 py-1 rounded-sm text-white'>PRO</p>
-                <MdOutlineRemoveRedEye className='ml-auto text-gray-500' />
+                {/* <MdOutlineRemoveRedEye className='ml-auto text-gray-500' /> */}
             </span>
          </div>
         </div>
