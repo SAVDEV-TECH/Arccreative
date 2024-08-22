@@ -7,6 +7,7 @@ import Role from './component/Role';
 import HireDesigner from './component/HireDesigner';
 import SampleDesign from './component/SampleDesign';
 import Footer from './component/Footer';
+import BacktoTop from './component/BacktoTop';
  
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
        <Role></Role>
        <HireDesigner></HireDesigner>
        <SampleDesign></SampleDesign>
+       <BacktoTop/>
        <Footer></Footer>
     </div>
 
