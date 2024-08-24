@@ -23,7 +23,7 @@ import '@splidejs/react-splide/css'
 //     const slider=React.useRef(null)
   return (
    // flex relative gap-2 w-[2100px] mx-auto
-    <div className='w-[90%] mx-auto  overflow-hidden  '>
+    <div className='w-[100%] mx-auto   '>
         
    <div className=''>
    <Splide
