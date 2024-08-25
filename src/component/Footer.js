@@ -27,7 +27,7 @@ function Footer() {
  </div>
  
 
- <div className='flex flex-col justify-center md:justify-between md:px-14 font-thin text-gray-500 mt-20 mb-11 items-center pr-10 md:flex-row'> 
+ <div className='flex flex-col justify-center px-10 md:justify-between  w-[100%] font-thin text-gray-500 mt-20 mb-11 items-center pr-10 md:flex-row'> 
      
     <ul className='flex justify-center px-3 w-[100%] md:w-max items-center   flex-wrap   text-[.8125rem] gap-[25px]    font-normal '>
     
@@ -38,7 +38,7 @@ function Footer() {
   
  </ul>
   
- <ul className='flex justify-center mx-auto px-4 w-[100%] md:w-max items-center   flex-wrap   text-[.8125rem] gap-[25px]    font-normal '>
+ <ul className='flex justify-center mx-auto md:mx-0 px-3 w-[100%] md:w-max items-center   flex-wrap   text-[.8125rem] gap-[25px]    font-normal '>
     <li className='py-2 '><NavLink>Discover</NavLink></li>
     <li><NavLink>Animation</NavLink></li>
     <li ><NavLink>Branding</NavLink></li>

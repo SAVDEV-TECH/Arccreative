@@ -7,7 +7,7 @@ import '@splidejs/react-splide/css'
 
 function SampleDesign() {
   return (
-    <div className='  w-[90%] overflow-hidden  mx-auto mb-10 mt-20'>
+    <div className='  w-[100%] overflow-hidden   mb-10 mt-20'>
     <div className='flex  mb-3 gap-10 w-[2100px] p-3  mx-auto  '>
     <Splide
             options={{
@@ -27,7 +27,7 @@ function SampleDesign() {
         >
       <SplideSlide> 
       <div className=' relative w-full h-[250px]'>
-       <img className=' rounded-[20px] object-cover object-center w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
+       <img className=' rounded-[20px] object-cover object-center w-full  h-[12.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`} alt='i'></img>
        <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
           
           <p className='text-[.8125rem] font-semibold'>Website.</p>
@@ -37,7 +37,7 @@ function SampleDesign() {
       </SplideSlide>   
       <SplideSlide> 
       <div className=' relative w-full h-[250px]'>
-       <img className=' rounded-[20px] w-full  h-[15.65rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`}></img>
+       <img className=' rounded-[20px] w-full  h-[12.65rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`} alt='i'></img>
        <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
           <p className='text-[.8125rem] font-semibold'>Illustration</p>
            
@@ -46,7 +46,7 @@ function SampleDesign() {
       </SplideSlide>
       <SplideSlide> 
       <div className=' relative w-full h-[250px]'>
-       <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+       <img className=' rounded-[20px] w-full  h-[12.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`} alt='i'></img>
        <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
           
           <p className='text-[.8125rem] font-semibold'>product Design</p>
@@ -56,7 +56,7 @@ function SampleDesign() {
       </SplideSlide>
       <SplideSlide>
       <div className=' relative w-full h-[250px]'>
-       <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
+       <img className=' rounded-[20px] w-full  h-[12.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`} alt='i'></img>
        <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
            
           <p className='text-[.8125rem] font-semibold'>Graphics Design</p>
@@ -66,7 +66,7 @@ function SampleDesign() {
       </SplideSlide>
       <SplideSlide>
       <div className=' relative w-full h-[250px]'>
-       <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
+       <img className=' rounded-[20px] w-full  h-[12.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`} alt='i'></img>
        <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
           
           <p className='text-[.8125rem] font-semibold'>Atochi Ogbonna Co.</p>
@@ -76,7 +76,7 @@ function SampleDesign() {
       </SplideSlide>
       <SplideSlide>
       <div className=' relative w-full h-[250px]'>
-       <img className=' rounded-[20px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (6).png'}`}></img>
+       <img className=' rounded-[20px] w-full  h-[12.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (6).png'}`} alt='i'></img>
        <div className='flex items-center text-[.8125rem] mt-2 justify-between px-2'>
           <p className='text-[.8125rem] font-semibold'>Atochi Ogbonna Co.</p>
  

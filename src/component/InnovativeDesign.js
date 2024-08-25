@@ -13,7 +13,7 @@ function InnovativeDesign() {
     <div className=' flex flex-col justify-center items-center'>
       <h2 className='font-bold text-[2rem] cabinet-font'>Innovative Design Shop</h2>
       <div className='flex  items-center justify-center'> 
-         <div className=' overflow-hidden max-w-[40%] md:max-w-[80%] m-auto'   > 
+         <div className=' overflow-hidden max-w-[70%] md:max-w-[100%] m-auto'   > 
       <ul style={{ transform:`translateX(-${moveit * 100}%)`}} className='flex transition-all ease-linear items-center max-w-[400px] md:max-w-[700px] mx-auto  text-[.8125rem] gap-14 mt-5 font-semibold '  >
          <li className='bg-purple-400 py-2 px-7 rounded-full text-purple-700'><NavLink>Discover</NavLink></li>
          <li><NavLink className=' '
@@ -26,7 +26,7 @@ function InnovativeDesign() {
           
       </ul>
       </div>
-      <FaAngleRight onClick={move} className='mt-[20px] cursor-pointer  text-[20px]'/>
+      <FaAngleRight onClick={move} className='mt-[20px] cursor-pointer md:hidden  text-[20px]'/>
       </div>
       <div className='  w-[85%] sm:w-[95%]  md:w-[95%] mx-auto mb-10 mt-7'>
       <div className='grid grid-cols-1 sm:grid-cols-3  md:grid-cols-4   mb-3 gap-10 w-[100%] p-3  mx-auto  '>
