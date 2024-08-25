@@ -53,7 +53,7 @@ function HireDesigner() {
             <p   className=" text-center text-[1rem] max-w-screen-sm mx-auto"  >Unlock the potential of your brand with a professional designers who can bring your version to life with creativity and technical expert
 
               </p>
-              <div className=" mx-auto w-[150px]  text-center rounded-full mt-10 text-white py-2 bg-purple-500">Get started</div>
+              <div className=" mx-auto w-[150px]  text-center rounded-full mt-14 text-white py-2 bg-purple-500">Get started</div>
              
             </div>
          </div>

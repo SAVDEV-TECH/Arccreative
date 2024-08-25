@@ -72,14 +72,14 @@ function Navbar() {
       </div>
       {/* <svg    className='cursor-pointer  fill-white inline-block  md:hidden lg:hidden' xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="20px" height="20px" fill='white' aria-hidden="true" ><path d="M413 422H1c-13.807 0-25-11.193-25-25s11.193-25 25-25h412c13.807 0 25 11.193 25 25s-11.193 25-25 25m0 140H1c-13.807 0-25-11.193-25-25s11.193-25 25-25h412c13.807 0 25 11.193 25 25s-11.193 25-25 25m0-280H1c-13.807 0-25-11.193-25-25s11.193-25 25-25h412c13.807 0 25 11.193 25 25s-11.193 25-25 25"></path></svg> */}
  
-      <div className='w-[150px]  md:hidden'>
+      <div className='w-[150px] hidden   md:flex'>
       <img className=' w-full object-cover     ' src={`${process.env.PUBLIC_URL + '/Vector (2).png'}`}></img>
    
       </div>
     
       
       < ul  className={ clsx(
-        "transition-all  flex  drop-shadow-lg  opacity-0 duration-100  -translate-x-full  md:opacity-100 flex-col  px-4  text-black left-0 fixed top-[70px]  pt-3   md:pt-0   md:translate-x-0   w-[100%] md:flex  md:items-center md:relative md:top-0 gap-10 h-[50vh] bg-white md:flex-row md:justify-start   md:w-[90%] md:h-[50px] md:bg-transparent",
+        "transition-all  flex  drop-shadow-lg  opacity-0 duration-100  -translate-x-full  md:opacity-100 flex-col  px-4  text-black left-0 fixed top-[70px]  pt-3   md:pt-0   md:translate-x-0   w-[100%] md:flex  md:items-center md:relative md:top-0 gap-10 h-[50vh] bg-white md:flex-row md:justify-start md:w-[40%]  md:ml-10  md:h-[50px] md:bg-transparent",
         isopen && `translate-x-0  opacity-100 fixed`
         )}  >
           {
