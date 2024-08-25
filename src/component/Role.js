@@ -11,16 +11,7 @@ import '@splidejs/react-splide/css'
  
 
  function Role() {
-//    var settings = {
-//       AutoScroll:true,
-//       type:'loop',
-//       dots: true,
-//       infinite: true,
-//       speed: 500,
-//       slidesToShow: 3,
-//       slidesToScroll: 1,
-//     };
-//     const slider=React.useRef(null)
+ 
   return (
    // flex relative gap-2 w-[2100px] mx-auto
     <div className='w-[100%] mx-auto   '>

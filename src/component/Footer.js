@@ -38,7 +38,7 @@ function Footer() {
   
  </ul>
   
- <ul className='flex justify-center px-3 w-[100%] md:w-max items-center   flex-wrap   text-[.8125rem] gap-[25px]    font-normal '>
+ <ul className='flex justify-center mx-auto px-4 w-[100%] md:w-max items-center   flex-wrap   text-[.8125rem] gap-[25px]    font-normal '>
     <li className='py-2 '><NavLink>Discover</NavLink></li>
     <li><NavLink>Animation</NavLink></li>
     <li ><NavLink>Branding</NavLink></li>
