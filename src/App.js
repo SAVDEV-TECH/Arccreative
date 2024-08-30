@@ -1,26 +1,28 @@
 // import Vector from './Vector.svg';
 import './App.css';
-import Header from './component/Header';
-import Carosel from './component/Carosel';
-import InnovativeDesign from './component/InnovativeDesign';
-import Role from './component/Role';
-import HireDesigner from './component/HireDesigner';
-import SampleDesign from './component/SampleDesign';
-import Footer from './component/Footer';
-import BacktoTop from './component/BacktoTop';
+import { Routes,Route } from 'react-router-dom';
+import SignIn from './component/Sign in & Login/SignIn';
+// import SignIn from './component/Sign in & Login/Login';
+import Container from './component/Container';
+import Login from './component/Sign in & Login/Login';
+import ResetPassword from './component/Sign in & Login/ResetPassword';
+
+ 
  
 
 function App() {
   return (
-    <div className="App sora">
-      <Header></Header>
-       <Carosel></Carosel>
-       <InnovativeDesign></InnovativeDesign>
-       <Role></Role>
-       <HireDesigner></HireDesigner>
-       <SampleDesign></SampleDesign>
-       <BacktoTop/>
-       <Footer></Footer>
+    <div className="App ">
+        
+       <> 
+       <Routes>
+         <Route path='/' element={<Container></Container>}></Route>
+         <Route path='SignIn' element={<SignIn></SignIn>}></Route>
+         <Route path='Login' element={<Login></Login>}></Route>
+         <Route path='ResetPassword' element={<ResetPassword></ResetPassword>}></Route>
+
+       </Routes>
+       </>
     </div>
 
   )

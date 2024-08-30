@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { Link, NavLink  } from 'react-router-dom'
 import { FaTimes , FaAngleDown} from "react-icons/fa";
 import { clsx } from 'clsx';
-import {RemoveScrollBar} from 'react-remove-scroll-bar';
+// import {RemoveScrollBar} from 'react-remove-scroll-bar';
 import { twMerge } from 'tailwind-merge'
+// import SignIn from './SignIn';
 // import vector from './Vector.svg';
 
 
@@ -85,7 +86,7 @@ function Navbar() {
           {
             navlist.map((e,index)=>(
             <li key={index} className= 'flex justify-between w-full md:w-max md:justify-normal  text-[.8125rem] font-extrabold'>
-            <Link  className={ twMerge ("-translate-x-5  md:opacity-100 md:text-white opacity-0", isopen && `translate-x-0 opacity-100 duration-500 transition-all delay-[${e.duration}ms]`)}>{e.name}</Link>
+            <Link to={e.Login}  className={ twMerge ("-translate-x-5  md:opacity-100 md:text-white opacity-0", isopen && `translate-x-0 opacity-100 duration-500 transition-all delay-[${e.duration}ms]`)}>{e.name}</Link>
             <FaAngleDown className='flex text-[16px] md:hidden'></FaAngleDown>
         </li>
              ) )
@@ -93,7 +94,7 @@ function Navbar() {
       </ul>
       
       <div className='ml-auto      md:ml-auto text-white  text-[.8125rem] font-extrabold '>
-            <NavLink className='py-2 px-6  bg-purple-500 rounded-full'>Sign up</NavLink>
+            <NavLink to='SignIn'  className='py-2 px-6  bg-purple-500 rounded-full'>Sign up</NavLink>
              
 
         </div> 
