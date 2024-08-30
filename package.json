@@ -1,7 +1,7 @@
 {
   "name": "arccreative",
   "version": "0.1.0",
-  "homepage": "https://SAVDEV-TECH.github.io/Arccreative/# ",
+  "homepage": "https://SAVDEV-TECH.github.io ",
   "private": true,
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
