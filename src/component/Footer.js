@@ -6,7 +6,7 @@ function Footer() {
   return (
      <div className='w-[100%] grid text-center  '> 
      <div className='flex flex-col justify-center md:justify-between md:px-14 items-center pr-10 md:flex-row'> 
-     <img className='w-[150px] h-[50px] md:ml-5  md:w-[200px]  object-contain  md:object-cover ' src= {`${process.env.PUBLIC_URL + '/Vector (2).png'}`}></img>
+     < img  altclassName='w-[150px] h-[50px] md:ml-5  md:w-[200px]  object-contain  md:object-cover ' src= {`${process.env.PUBLIC_URL + '/Vector (2).png'}`}></img>
     <ul className='flex justify-center px-3 w-[100%] md:w-max items-center   flex-wrap   text-[.8125rem] gap-[25px]    font-semibold '>
     <li className='py-2 '><NavLink>Discover</NavLink></li>
     <li><NavLink>Animation</NavLink></li>
