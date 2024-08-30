@@ -35,7 +35,7 @@ import '@splidejs/react-splide/css'
         >
             <SplideSlide>
             <div className=' relative w-full h-[360px]'>
-         <img className=' rounded-[23px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
+         <img alt="i" className=' rounded-[23px] w-full object-cover object-top   h-[100%]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (3).png'}`}></img>
          <div className='flex absolute bottom-2 flex-col  items-start  left-0  text-[.825rem] mt-2  px-2'>
         
             <p className=' font-semibold flex gap-4 items-center justify-center flex-wrap text-[0.625rem]  text-white  '>Ui Ux Designer</p>

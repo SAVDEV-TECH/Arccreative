@@ -23,7 +23,7 @@ function Form() {
         < Link className='w-[90%] sm:w-[70%] md:w-[426px] px-11 text-[14px] mb-7 text-center font-semibold text-gray py-[17px] rounded-full bg-white border border-gray-400'> Continue  with  Email</Link>
 
         <div className=' text-center text-[12px] w-[90%]   px-9'>
-            <p className=' text-gray-500 font-medium'>By creating an account you agree with our <a href=''>Terms of Service, Privacy Policy,</a>   and our default<Link> Notification Settings. </Link> </p>
+            <p className=' text-gray-500 font-medium'>By creating an account you agree with our <Link>Terms of Service, Privacy Policy,</Link>   and our default<Link> Notification Settings. </Link> </p>
         </div>
         <div>
             <p className='text-[14px] text-gray-500'>Already have an account? <Link to='/Login' className='underline-offset-8'>Sign In</Link></p>
