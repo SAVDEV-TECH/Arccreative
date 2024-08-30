@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowDown,faarr } from 'react-icons/fa'
+// import { FaArrowDown,faarr } from 'react-icons/fa'
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import {Splide,  SplideSlide} from  '@splidejs/react-splide'
 import '@splidejs/react-splide/css/core';

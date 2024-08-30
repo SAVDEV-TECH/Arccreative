@@ -29,59 +29,59 @@ function Carosel() {
             extensions={{ AutoScroll }} // Use the AutoScroll extension
         >
             <SplideSlide>
-         <img className=' rounded-[8px] object-cover object-center   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
+         <img alt='i' className=' rounded-[8px] object-cover object-center   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (4).png'}`}></img>
                 
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]  h-[15.65rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]  h-[15.65rem] object-cover object-center ' src={`${process.env.PUBLIC_URL + '/imagei1 (5).png'}`}></img>
              
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
                  
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
             
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
             
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
                 
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
                  
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
             
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
+         <img alt='i' className=' rounded-[8px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
             
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
+         <img alt='i' className=' rounded-[8px] w-full  h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
                 
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
                  
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (7).png'}`}></img>
             
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (8).png'}`}></img>
             
             </SplideSlide>
             <SplideSlide>
-         <img className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
+         <img alt='i' className=' rounded-[8px]   h-[15.65rem]  ' src={`${process.env.PUBLIC_URL + '/imagei1 (9).png'}`}></img>
                 
             </SplideSlide>
         </Splide>

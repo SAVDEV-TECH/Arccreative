@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FaArrowAltCircleDown, FaArrowAltCircleUp } from 'react-icons/fa'
+import { FaArrowAltCircleUp } from 'react-icons/fa'
 
 
 function BacktoTop() {

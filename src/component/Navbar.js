@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, NavLink  } from 'react-router-dom'
-import { FaTimes , FaAngleDown} from "react-icons/fa";
+import {  FaAngleDown} from "react-icons/fa";
 import { clsx } from 'clsx';
 // import {RemoveScrollBar} from 'react-remove-scroll-bar';
 import { twMerge } from 'tailwind-merge'
@@ -74,7 +74,7 @@ function Navbar() {
       {/* <svg    className='cursor-pointer  fill-white inline-block  md:hidden lg:hidden' xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="20px" height="20px" fill='white' aria-hidden="true" ><path d="M413 422H1c-13.807 0-25-11.193-25-25s11.193-25 25-25h412c13.807 0 25 11.193 25 25s-11.193 25-25 25m0 140H1c-13.807 0-25-11.193-25-25s11.193-25 25-25h412c13.807 0 25 11.193 25 25s-11.193 25-25 25m0-280H1c-13.807 0-25-11.193-25-25s11.193-25 25-25h412c13.807 0 25 11.193 25 25s-11.193 25-25 25"></path></svg> */}
  
       <div className='w-[150px] hidden   md:flex'>
-      <img className=' w-full object-cover     ' src={`${process.env.PUBLIC_URL + '/Vector (2).png'}`}></img>
+      <img className=' w-full object-cover     ' src={`${process.env.PUBLIC_URL + '/Vector (2).png'}`} alt='yea'></img>
    
       </div>
     
