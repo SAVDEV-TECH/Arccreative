@@ -5,8 +5,8 @@ function Form() {
   return (
     <div className='w-[100%] flex  items-center justify-center md:justify-normal   h-screen '>
       <form className='w-[80%]   ml-0  md:w-[60%] py-5 px-3  items-center justify-center gap-7 flex flex-col md:ml-[100px] '>
-        <h1  className='text-2xl mb-3  w-[70%] font-bold text-left text-[0d0c22] font-sans'>Sign up to Arcreative</h1>
-        <Link className='w-[90%] sm:w-[70%] flex items-center justify-center gap-3  md:w-[426px] px-11 text-[14px] text-center text-white font-semibold py-[17px] rounded-full bg-black'>
+        <h1  className='text-[20px] md:text-2xl mb-3  w-[100%] md:w-[70%] font-bold text-left text-[0d0c22] font-sans'>Sign up to Arcreative</h1>
+        <Link className='w-[100%] sm:w-[70%] flex items-center justify-center gap-3  md:w-[426px] px-11 text-[14px] text-center text-white font-semibold py-[17px] rounded-full bg-black'>
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" role="img" class="icon ">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.64 9.20419C17.64 8.56601 17.5827 7.95237 17.4764 7.36328H9V10.8446H13.8436C13.635 11.9696 13.0009 12.9228 12.0477 13.561V15.8192H14.9564C16.6582 14.2524 17.64 11.9451 17.64 9.20419Z" fill="#4285F4"></path>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99976 18C11.4298 18 13.467 17.1941 14.9561 15.8195L12.0475 13.5613C11.2416 14.1013 10.2107 14.4204 8.99976 14.4204C6.65567 14.4204 4.67158 12.8372 3.96385 10.71H0.957031V13.0418C2.43794 15.9831 5.48158 18 8.99976 18Z" fill="#34A853"></path>
@@ -20,9 +20,9 @@ function Form() {
             <span className='text-[12px]'>or</span>
             <span className='w-[40%] h-[1px] block bg-gray-500'></span>
         </div>
-        < Link className='w-[90%] sm:w-[70%] md:w-[426px] px-11 text-[14px] mb-7 text-center font-semibold text-gray py-[17px] rounded-full bg-white border border-gray-400'> Continue  with  Email</Link>
+        < Link className='w-[100%] sm:w-[70%] md:w-[426px] px-11 text-[14px] mb-7 text-center font-semibold text-gray py-[17px] rounded-full bg-white border border-gray-400'> Continue  with  Email</Link>
 
-        <div className=' text-center text-[12px] w-[90%]   px-9'>
+        <div className=' text-center text-[12px] w-[100%]  md:w-[90%]  px-7 md:px-9'>
             <p className=' text-gray-500 font-medium'>By creating an account you agree with our <Link>Terms of Service, Privacy Policy,</Link>   and our default<Link> Notification Settings. </Link> </p>
         </div>
         <div>
