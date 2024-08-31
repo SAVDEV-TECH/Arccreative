@@ -7,6 +7,10 @@
     .pause{
         animation-play-state: paused;
     }
+    .text-small-italicized {
+        font-style: italic;
+      }
+    
 }
 
 .gridcolf{
