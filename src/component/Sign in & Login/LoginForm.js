@@ -16,9 +16,9 @@ function LoginForm() {
       <p>Sign in With  Google</p> 
        </Link>
       <div className='flex w-[100%] md:w-[90%] mx-auto items-center gap-2 justify-center'>
-          <span className='w-[27%] md:w-[30%] h-[1px] block bg-gray-500'></span>
-          <span className='text-[14px] font-normal text-black'>or Sign in with Email</span>
-          <span className='w-[27%]  md:w-[30%] h-[1px] block bg-gray-500'></span>
+          <span className='w-[25%] sm:w-[27%] md:w-[30%] h-[1px] block bg-gray-500'></span>
+          <span className='text-[13px] font-normal text-black'>or Sign in with Email</span>
+          <span className='w-[23%] sm:w-[27%] md:w-[30%] h-[1px] block bg-gray-500'></span>
       </div>
       <div className='flex flex-col w-[90%] mx-auto gap-9 '>
        <div className='   w-full '>

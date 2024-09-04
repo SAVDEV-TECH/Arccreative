@@ -9,8 +9,8 @@ function ResetPassword() {
     <video className=' w-[100%] relative    h-[100vh] object-cover object-center   ' autoPlay playsInline loop muted src='https://cdn.dribbble.com/uploads/48226/original/b8bd4e4273cceae2889d9d259b04f732.mp4?1689028949'></video>
     <h3 className='absolute z-10 top-8 text-[30px]  text-small-italicized font-medium text-white left-7  '>Accreative</h3>
     </div>
-    <div className='w-[90%]  mx-auto md:w-[60%] md:justify-start flex justify-center items-center h-screen'> 
-    <form className='w-[90%]  px-5  ml-0  md:w-[60%] py-5    justify-center gap-7 flex flex-col md:ml-[100px] '>
+    <div className='w-[100%]  mx-auto md:w-[60%] md:justify-start flex justify-center items-center h-screen'> 
+    <form className='w-[100%]  px-5  ml-0  md:w-[60%] py-5    justify-center gap-7 flex flex-col md:ml-[100px] '>
       <h1  className='text-2xl  mx-auto  w-[90%] font-bold  text-[0d0c22] font-sans'>Forgot Password</h1>
        
        <p className=' pr-10 text-[14px] w-[90%]  mx-auto text-gray-400 font-semibold'>Enter the email address you used when you joined and we’ll send you instructions to reset your password.</p>
